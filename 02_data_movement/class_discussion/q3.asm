@@ -2,13 +2,13 @@ section .data
     num dd 55
 
     ; contains ADDRESS of num
-    ptr dd num
+    pnt dd num
 
 section .text
     global _start
 
 _start:
-    mov eax, [ptr]
+    mov eax, [pnt]
 
     ; Exit
     mov eax, 1
