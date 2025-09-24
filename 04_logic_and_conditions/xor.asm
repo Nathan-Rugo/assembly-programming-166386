@@ -19,6 +19,14 @@ _start:
     int 0x80       ; invoke call
 
 
+
+
+
+
+
+
+
+
 ; flags set
 ; PF (Parity Flag) is Set if result’s low byte has an even number of 1s
 ; 01100110b has 4 ones → even → PF = 1
