@@ -6,6 +6,7 @@
 
 # Allow .asm and README.md files
 !*.asm
+!*.c
 !README.md
 
 # Explicitly ignore build artifacts
