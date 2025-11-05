@@ -8,6 +8,7 @@
 !*.asm
 !*.c
 !README.md
+!*.c
 
 # Explicitly ignore build artifacts
 *.o
